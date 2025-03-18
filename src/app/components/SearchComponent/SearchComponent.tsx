@@ -45,7 +45,7 @@ const SearchComponent = () => {
         />
         <button
           className="bg-blue-300 text-black px-4 py-1 rounded cursor-pointer disabled:cursor-default disabled:bg-gray-300"
-          disabled={searchValue === ''}
+          disabled={searchValue === '' && selectValue === '' && numberValue === ''}
         >
           Next
         </button>
